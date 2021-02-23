@@ -5,30 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Graduation work</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="backgroung">
-        <header class="header">
-            <div class="navigation">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Product</a></li>
-                    <li><a href="">Pricing</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-            <div class="logo">
-                <img src="img/logo.png" alt="">
-            </div>
-            <div class="social">
-                <ul>
-                    <li><a href="" target="_blank"></a></li>
-                    <li><a href="" target="_blank"></a></li>
-                    <li><a href="" target="_blank"></a></li>
-                </ul>
+        <header>
+            <div class="wrapper header">
+                <div class="navigation">
+                    <ul class="navigation-list">
+                        <li class="navigation-list-item"><a class="link navigation-list-link" href="">Home</a></li>
+                        <li class="navigation-list-item"><a class="link navigation-list-link" href="">Product</a></li>
+                        <li class="navigation-list-item"><a class="link navigation-list-link" href="">Pricing</a></li>
+                        <li class="navigation-list-item"><a class="link navigation-list-link" href="">About</a></li>
+                        <li class="navigation-list-item"><a class="link navigation-list-link" href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="social">
+                    <ul class="social-list">
+                        <li><a class="link link_item" href="" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a class="link link_item" href="" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a class="link link_item" href="" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </header>
         <div class="content">
@@ -38,7 +41,70 @@
                 <button class="btn" type="button">Try For Free</button>
             </div>
         </div>
-        
     </div>
+    <main>
+        <div class="features">
+            <div class="wrapper">
+                <h2 class="h2">Features</h2>
+                <p class="text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+                <div class="features-columns">
+                    <div class="features-columns-concainer">
+                        <img src="img/Features-1.svg" alt="">
+                        <h3>OpenType features Variable fonts</h3>
+                        <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                    </div>
+                    <div class="features-columns-concainer">
+                        <img src="img/Features-2.svg" alt="">
+                        <h3>Design with real data</h3>
+                        <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                    </div>
+                    <div class="features-columns-concainer">
+                        <img src="img/Features-3.svg" alt="">
+                        <h3>Fastest way to take action</h3>
+                        <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                    </div>
+                </div>
+                <video src="" class="video" width="1177px" height="658px" poster="img/screen.png"></video> 
+            </div>
+        </div>
+        <div class="destination-container">
+            <div class="wrapper">
+                <div class="destination-box">
+                    <div class="destination-box-columns">
+                        <h2 class="h2">Fastest way to organize</h2>
+                        <p class="text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+                        <button class="btn" type="button">Try For Free</button>
+                    </div>
+                    <div class="destination-box-columns">
+                        <img src="img/@ Macbook Pro.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subscription-container">
+            <div class="wrapper">
+                <div class="subscription-box">
+                    <div class="subscription-columns">
+                        <img src="img/undraw_newsletter_vovu.svg" alt="">
+                    </div>
+                    <div class="subscription-columns">
+                        <h3>At your fingertips</h3>
+                        <h2 class="h2">Lightning fast prototyping </h2>
+                        <h3>Subscribe to our Newsletter</h3>
+                        <p>Available exclusivery on Figmaland</p>
+                        <form action="">
+                            <input type="text" name="email" placeholder="Your Email">
+                            <input class="btn" type="submit" value="Subscribe">
+                        </form>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script defer src="js/all.js"></script>
 </body>
 </html>

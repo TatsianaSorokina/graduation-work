@@ -64,6 +64,16 @@ body {
     margin: 0 auto;
 }
 
+.list {
+    font-family: 'Conv_Graphik Regular', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    list-style-type: none;
+    line-height: 28px; 
+    padding: 0;
+    margin: 0;
+}
+
 /*header*/
 
 .header {
@@ -219,4 +229,147 @@ body {
 .subscription-box {
     display: flex;
     justify-content: space-between;
+}
+
+/*partners-container*/
+
+.partners-container {
+    padding-top: 14%;
+    padding-bottom: 8.6%;
+    text-align: center;
+}
+
+.partners-container-gallery {
+    margin-top: 10%;
+    margin-bottom: 9%;
+}
+
+.partners-container-gallery-img {
+    position: relative;
+    padding: 0 0 0 0;
+}
+
+.partners-container-button {
+    
+}
+
+/*testimonials-container*/
+
+.testimonials-container {
+    text-align: center;
+    padding-top: 14%;
+    padding-bottom: 12%;
+}
+
+.testimonials-container h2 {
+    margin-bottom: 12%;
+}
+
+.testimonials-container img {
+    margin-bottom: 7%;
+}
+
+.text-long {
+    max-width: 950px;
+    margin-bottom: 7.6%;
+}
+
+.testimonials-container-box {
+    max-width: 186px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.testimonials-container-box-text span {
+    font-family: 'Conv_Graphik Regular', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #374754;
+}
+
+.testimonials-container-box-text p {
+    font-family: 'Conv_Graphik Regular', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #252B42;
+    text-align: left;
+}
+
+/*pricing-container*/
+
+.pricing-container {
+    padding-top: 9.5%;
+    padding-bottom: 8.7%;
+    background-color: #252B42;
+}
+
+.h2-white, .text-white {
+    color: #fff;
+}
+
+.pricing-container-boxes {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+}
+
+.pricing-container-box {
+    font-family: 'Conv_Graphik Regular', sans-serif;
+    color: #252B42;
+    padding: 43px 40px;
+    border-radius: 10px;
+}
+
+.pricing-container-box h3 {
+    font-family: 'Conv_Graphik-Bold';
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.pricing-container-box p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    max-width: 148px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.span-bold {
+    font-family: 'Conv_Graphik-Bold';
+    font-size: 7.4rem;
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+.span-small {
+    font-family: 'Conv_Graphik-Bold';
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.pricing-container-box-month {
+    display: flex;
+    justify-content: center;
+    max-width: 186px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.pricing-container-box-white {
+    background-color: #fff;
+    margin-top: 46px;
+    margin-bottom: 43px;
+}
+
+.pricing-container-box-blue {
+    background-color: #2091F9;
+    color: #fff;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #2091F9;
 }
